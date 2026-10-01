@@ -1,0 +1,10 @@
+# Swift build output
+.build/
+*.xcodeproj
+*.xcworkspace
+
+# Built app bundle — produced by ./build.sh
+OnePlaceTerminal.app/
+
+# macOS
+.DS_Store

@@ -1,0 +1,25 @@
+{
+  "name": "oneplace-terminal-focus",
+  "displayName": "One Place Terminal \u2014 Focus",
+  "description": "Lets OnePlaceTerminal.app focus a specific integrated terminal.",
+  "version": "1.0.0",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "oneplace.restoreSessions",
+        "title": "One Place: Restore Sessions"
+      }
+    ]
+  }
+}
